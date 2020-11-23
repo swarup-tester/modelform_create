@@ -1,5 +1,3 @@
-
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href='{% url "index" %}'>eBook</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -16,7 +14,7 @@
           </a>
           <div class="dropdown-menu" >
             <a class="dropdown-item" href='{% url "create" %}'>Create</a>
-            <a class="dropdown-item" href='#'>Retrieve</a>
+            <a class="dropdown-item" href='{% url "retrieve" %}'>Retrieve</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Coming soon</a>
           </div>
