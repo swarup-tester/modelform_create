@@ -1,0 +1,26 @@
+/* html, body, header, #splash {
+    height:100%;
+  } */
+
+body {
+  background-color: yellow;
+}
+
+.test{
+  color: brown;
+}
+
+#splash{
+background: url("/static/images/bgpix.jpg") ;
+background-repeat:no-repeat;                    /* Image will be image will display once  */
+background-position:center center;           /* Image will be centered both vertically and horizontally  */
+background-size: cover;                             /* Resize the image to cover the entire container  */
+}
+
+.container{
+    background-color: lightgrey;
+    color: brown;
+    font-size: large;
+
+}
+
